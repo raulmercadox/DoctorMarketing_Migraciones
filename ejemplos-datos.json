@@ -1,0 +1,105 @@
+{
+  "pacientes": [
+    {
+      "id_paciente": "216695",
+      "nombre": "Rosi",
+      "apellido": "Ayala Plaza",
+      "email": "rosiayalaplaza1@gmail.com",
+      "telefono": "658852058",
+      "fecha_nacimiento": "1953-02-07",
+      "id_sexo": null,
+      "direccion": null,
+      "ciudad": null,
+      "id_clinica": "63",
+      "codigo_postal": "0",
+      "nif_cif": "0",
+      "referido": "Particular",
+      "id_super_clinica": "47",
+      "id_estado_registro": "1",
+      "id_cliente": null,
+      "lopd_aceptado": "0",
+      "Importado": null,
+      "kommo_lead_id": null,
+      "old_id": "303",
+      "fecha_alta": "2023-03-26",
+      "fecha_creacion": "2025-01-12 18:21:59",
+      "fecha_modificacion": null,
+      "usuario_creacion": "importacion Critenias",
+      "id_usuario_creacion": null
+    }
+  ],
+  "tratamientos": [
+    {
+      "id_tratamiento": "306",
+      "nombre_tratamiento": "Cita de valoración",
+      "descripcion": "VALORACIÓN PERSONALIZADA DE NUESTRAS PROFESIONALES PARA EL DIAGNOSTICO FACIAL Y CORPORAL INDICANDO LOS MEJORES TRATAMIENTOS SEGÚN LAS PREOCUPACIONES DEL PACIENTE, ASESORANDO DE LAS FORMAS DE PAGO.",
+      "duracion": "30",
+      "precio": "0.0000",
+      "id_clinica": "63",
+      "id_super_clinica": "47",
+      "id_tipo_iva": "1",
+      "id_estado_registro": "1"
+    }
+  ],
+  "productos": [
+    {
+      "id_producto": "377",
+      "nombre_producto": "Crema antiedad",
+      "descripcion": "Antiarrugas",
+      "stock": "10",
+      "precio": "66.1157",
+      "id_clinica": "63",
+      "id_super_clinica": "47",
+      "id_tipo_iva": "1",
+      "id_estado_registro": "1",
+      "codigo": null,
+      "codigo_barras": null,
+      "proveedor": null,
+      "precio_costo": null,
+      "descuento": "0.00",
+      "fecha_creacion": "2025-01-17 10:15:52",
+      "fecha_modificacion": "2025-01-17 10:17:44",
+      "usuario_creacion": null,
+      "id_usuario_creacion": null
+    }
+  ],
+  "presupuestos": [
+    {
+      "id_presupuesto": "7589",
+      "id_paciente": "246754",
+      "id_super_clinica": "47",
+      "id_clinica": "63",
+      "fecha": "2025-02-03 00:18:11",
+      "url_presupuesto": "",
+      "monto_total": "300.00",
+      "monto_pagado": "300.00",
+      "saldo_pendiente": "0.00",
+      "id_estado": "1",
+      "id_tipo_pago": "1",
+      "old_id": "0",
+      "id_estado_registro": "1",
+      "numero_historia": null,
+      "id_contacto": null,
+      "fecha_creacion": "2025-02-03 00:18:11",
+      "fecha_modificacion": "2025-02-11 03:23:41",
+      "usuario_creacion": null,
+      "id_usuario_creacion": null
+    }
+  ],
+  "detalle_presupuesto": [
+    {
+      "id_detalle_presupuesto": "9032",
+      "id_presupuesto": "7589",
+      "id_tratamiento": null,
+      "item": "0",
+      "descripcion": "",
+      "cantidad": "1",
+      "precio": "248.00",
+      "descuento": "0.00",
+      "id_tipo_iva": null,
+      "total_item": "247.93",
+      "id_producto": "455",
+      "old_id": "0"
+    }
+  ]
+}
